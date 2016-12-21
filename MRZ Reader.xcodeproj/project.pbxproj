@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845525F11E0A482C00AD9C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845525F01E0A482C00AD9C2B /* AppDelegate.swift */; };
+		845525F31E0A482C00AD9C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845525F21E0A482C00AD9C2B /* ViewController.swift */; };
+		845525F61E0A482C00AD9C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845525F41E0A482C00AD9C2B /* Main.storyboard */; };
+		845525F81E0A482C00AD9C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845525F71E0A482C00AD9C2B /* Assets.xcassets */; };
+		845525FB1E0A482C00AD9C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845525F91E0A482C00AD9C2B /* LaunchScreen.storyboard */; };
+		845526061E0A482C00AD9C2B /* MRZ_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845526051E0A482C00AD9C2B /* MRZ_ReaderTests.swift */; };
+		845526111E0A482C00AD9C2B /* MRZ_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845526101E0A482C00AD9C2B /* MRZ_ReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845526021E0A482C00AD9C2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845525E51E0A482C00AD9C2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845525EC1E0A482C00AD9C2B;
+			remoteInfo = "MRZ Reader";
+		};
+		8455260D1E0A482C00AD9C2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845525E51E0A482C00AD9C2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845525EC1E0A482C00AD9C2B;
+			remoteInfo = "MRZ Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		845525ED1E0A482C00AD9C2B /* MRZ Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MRZ Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845525F01E0A482C00AD9C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845525F21E0A482C00AD9C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		845525F51E0A482C00AD9C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845525F71E0A482C00AD9C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845525FA1E0A482C00AD9C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845525FC1E0A482C00AD9C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845526011E0A482C00AD9C2B /* MRZ ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRZ ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845526051E0A482C00AD9C2B /* MRZ_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRZ_ReaderTests.swift; sourceTree = "<group>"; };
+		845526071E0A482C00AD9C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8455260C1E0A482C00AD9C2B /* MRZ ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRZ ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845526101E0A482C00AD9C2B /* MRZ_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRZ_ReaderUITests.swift; sourceTree = "<group>"; };
+		845526121E0A482C00AD9C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845525EA1E0A482C00AD9C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845525FE1E0A482C00AD9C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845526091E0A482C00AD9C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845525E41E0A482C00AD9C2B = {
+			isa = PBXGroup;
+			children = (
+				845525EF1E0A482C00AD9C2B /* MRZ Reader */,
+				845526041E0A482C00AD9C2B /* MRZ ReaderTests */,
+				8455260F1E0A482C00AD9C2B /* MRZ ReaderUITests */,
+				845525EE1E0A482C00AD9C2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845525EE1E0A482C00AD9C2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845525ED1E0A482C00AD9C2B /* MRZ Reader.app */,
+				845526011E0A482C00AD9C2B /* MRZ ReaderTests.xctest */,
+				8455260C1E0A482C00AD9C2B /* MRZ ReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845525EF1E0A482C00AD9C2B /* MRZ Reader */ = {
+			isa = PBXGroup;
+			children = (
+				845525F01E0A482C00AD9C2B /* AppDelegate.swift */,
+				845525F21E0A482C00AD9C2B /* ViewController.swift */,
+				845525F41E0A482C00AD9C2B /* Main.storyboard */,
+				845525F71E0A482C00AD9C2B /* Assets.xcassets */,
+				845525F91E0A482C00AD9C2B /* LaunchScreen.storyboard */,
+				845525FC1E0A482C00AD9C2B /* Info.plist */,
+			);
+			path = "MRZ Reader";
+			sourceTree = "<group>";
+		};
+		845526041E0A482C00AD9C2B /* MRZ ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				845526051E0A482C00AD9C2B /* MRZ_ReaderTests.swift */,
+				845526071E0A482C00AD9C2B /* Info.plist */,
+			);
+			path = "MRZ ReaderTests";
+			sourceTree = "<group>";
+		};
+		8455260F1E0A482C00AD9C2B /* MRZ ReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				845526101E0A482C00AD9C2B /* MRZ_ReaderUITests.swift */,
+				845526121E0A482C00AD9C2B /* Info.plist */,
+			);
+			path = "MRZ ReaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845525EC1E0A482C00AD9C2B /* MRZ Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845526151E0A482C00AD9C2B /* Build configuration list for PBXNativeTarget "MRZ Reader" */;
+			buildPhases = (
+				845525E91E0A482C00AD9C2B /* Sources */,
+				845525EA1E0A482C00AD9C2B /* Frameworks */,
+				845525EB1E0A482C00AD9C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MRZ Reader";
+			productName = "MRZ Reader";
+			productReference = 845525ED1E0A482C00AD9C2B /* MRZ Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		845526001E0A482C00AD9C2B /* MRZ ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845526181E0A482C00AD9C2B /* Build configuration list for PBXNativeTarget "MRZ ReaderTests" */;
+			buildPhases = (
+				845525FD1E0A482C00AD9C2B /* Sources */,
+				845525FE1E0A482C00AD9C2B /* Frameworks */,
+				845525FF1E0A482C00AD9C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845526031E0A482C00AD9C2B /* PBXTargetDependency */,
+			);
+			name = "MRZ ReaderTests";
+			productName = "MRZ ReaderTests";
+			productReference = 845526011E0A482C00AD9C2B /* MRZ ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8455260B1E0A482C00AD9C2B /* MRZ ReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8455261B1E0A482C00AD9C2B /* Build configuration list for PBXNativeTarget "MRZ ReaderUITests" */;
+			buildPhases = (
+				845526081E0A482C00AD9C2B /* Sources */,
+				845526091E0A482C00AD9C2B /* Frameworks */,
+				8455260A1E0A482C00AD9C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8455260E1E0A482C00AD9C2B /* PBXTargetDependency */,
+			);
+			name = "MRZ ReaderUITests";
+			productName = "MRZ ReaderUITests";
+			productReference = 8455260C1E0A482C00AD9C2B /* MRZ ReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845525E51E0A482C00AD9C2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					845525EC1E0A482C00AD9C2B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					845526001E0A482C00AD9C2B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 845525EC1E0A482C00AD9C2B;
+					};
+					8455260B1E0A482C00AD9C2B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 845525EC1E0A482C00AD9C2B;
+					};
+				};
+			};
+			buildConfigurationList = 845525E81E0A482C00AD9C2B /* Build configuration list for PBXProject "MRZ Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845525E41E0A482C00AD9C2B;
+			productRefGroup = 845525EE1E0A482C00AD9C2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845525EC1E0A482C00AD9C2B /* MRZ Reader */,
+				845526001E0A482C00AD9C2B /* MRZ ReaderTests */,
+				8455260B1E0A482C00AD9C2B /* MRZ ReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845525EB1E0A482C00AD9C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845525FB1E0A482C00AD9C2B /* LaunchScreen.storyboard in Resources */,
+				845525F81E0A482C00AD9C2B /* Assets.xcassets in Resources */,
+				845525F61E0A482C00AD9C2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845525FF1E0A482C00AD9C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8455260A1E0A482C00AD9C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845525E91E0A482C00AD9C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845525F31E0A482C00AD9C2B /* ViewController.swift in Sources */,
+				845525F11E0A482C00AD9C2B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845525FD1E0A482C00AD9C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845526061E0A482C00AD9C2B /* MRZ_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845526081E0A482C00AD9C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845526111E0A482C00AD9C2B /* MRZ_ReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845526031E0A482C00AD9C2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845525EC1E0A482C00AD9C2B /* MRZ Reader */;
+			targetProxy = 845526021E0A482C00AD9C2B /* PBXContainerItemProxy */;
+		};
+		8455260E1E0A482C00AD9C2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845525EC1E0A482C00AD9C2B /* MRZ Reader */;
+			targetProxy = 8455260D1E0A482C00AD9C2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		845525F41E0A482C00AD9C2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845525F51E0A482C00AD9C2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845525F91E0A482C00AD9C2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845525FA1E0A482C00AD9C2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845526131E0A482C00AD9C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845526141E0A482C00AD9C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845526161E0A482C00AD9C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MRZ Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech-travels.MRZ-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		845526171E0A482C00AD9C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MRZ Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech-travels.MRZ-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		845526191E0A482C00AD9C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MRZ ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech-travels.MRZ-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRZ Reader.app/MRZ Reader";
+			};
+			name = Debug;
+		};
+		8455261A1E0A482C00AD9C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MRZ ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech-travels.MRZ-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRZ Reader.app/MRZ Reader";
+			};
+			name = Release;
+		};
+		8455261C1E0A482C00AD9C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "MRZ ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech-travels.MRZ-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MRZ Reader";
+			};
+			name = Debug;
+		};
+		8455261D1E0A482C00AD9C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "MRZ ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech-travels.MRZ-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MRZ Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845525E81E0A482C00AD9C2B /* Build configuration list for PBXProject "MRZ Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845526131E0A482C00AD9C2B /* Debug */,
+				845526141E0A482C00AD9C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845526151E0A482C00AD9C2B /* Build configuration list for PBXNativeTarget "MRZ Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845526161E0A482C00AD9C2B /* Debug */,
+				845526171E0A482C00AD9C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		845526181E0A482C00AD9C2B /* Build configuration list for PBXNativeTarget "MRZ ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845526191E0A482C00AD9C2B /* Debug */,
+				8455261A1E0A482C00AD9C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8455261B1E0A482C00AD9C2B /* Build configuration list for PBXNativeTarget "MRZ ReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8455261C1E0A482C00AD9C2B /* Debug */,
+				8455261D1E0A482C00AD9C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845525E51E0A482C00AD9C2B /* Project object */;
+}
