@@ -7,13 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		845525F11E0A482C00AD9C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845525F01E0A482C00AD9C2B /* AppDelegate.swift */; };
-		845525F31E0A482C00AD9C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845525F21E0A482C00AD9C2B /* ViewController.swift */; };
-		845525F61E0A482C00AD9C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845525F41E0A482C00AD9C2B /* Main.storyboard */; };
-		845525F81E0A482C00AD9C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845525F71E0A482C00AD9C2B /* Assets.xcassets */; };
-		845525FB1E0A482C00AD9C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845525F91E0A482C00AD9C2B /* LaunchScreen.storyboard */; };
 		845526061E0A482C00AD9C2B /* MRZ_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845526051E0A482C00AD9C2B /* MRZ_ReaderTests.swift */; };
 		845526111E0A482C00AD9C2B /* MRZ_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845526101E0A482C00AD9C2B /* MRZ_ReaderUITests.swift */; };
+		845526351E0A499F00AD9C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845526311E0A499F00AD9C2B /* AppDelegate.swift */; };
+		845526361E0A499F00AD9C2B /* MyScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845526321E0A499F00AD9C2B /* MyScanViewController.swift */; };
+		845526381E0A499F00AD9C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845526341E0A499F00AD9C2B /* ViewController.swift */; };
+		8455263D1E0A49A700AD9C2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845526391E0A49A700AD9C2B /* LaunchScreen.xib */; };
+		8455263E1E0A49A700AD9C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8455263B1E0A49A700AD9C2B /* Main.storyboard */; };
+		845526421E0A4AAA00AD9C2B /* MRZ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845526401E0A4AAA00AD9C2B /* MRZ.swift */; };
+		845526431E0A4AAA00AD9C2B /* PassportScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845526411E0A4AAA00AD9C2B /* PassportScannerController.swift */; };
+		845526D01E0A4E2F00AD9C2B /* eng.cube.bigrams in Resources */ = {isa = PBXBuildFile; fileRef = 845526C71E0A4E2F00AD9C2B /* eng.cube.bigrams */; };
+		845526D11E0A4E2F00AD9C2B /* eng.cube.bigrams in Resources */ = {isa = PBXBuildFile; fileRef = 845526C71E0A4E2F00AD9C2B /* eng.cube.bigrams */; };
+		845526D21E0A4E2F00AD9C2B /* eng.cube.bigrams in Resources */ = {isa = PBXBuildFile; fileRef = 845526C71E0A4E2F00AD9C2B /* eng.cube.bigrams */; };
+		845526D31E0A4E2F00AD9C2B /* eng.cube.fold in Resources */ = {isa = PBXBuildFile; fileRef = 845526C81E0A4E2F00AD9C2B /* eng.cube.fold */; };
+		845526D41E0A4E2F00AD9C2B /* eng.cube.fold in Resources */ = {isa = PBXBuildFile; fileRef = 845526C81E0A4E2F00AD9C2B /* eng.cube.fold */; };
+		845526D51E0A4E2F00AD9C2B /* eng.cube.fold in Resources */ = {isa = PBXBuildFile; fileRef = 845526C81E0A4E2F00AD9C2B /* eng.cube.fold */; };
+		845526D91E0A4E2F00AD9C2B /* eng.cube.nn in Resources */ = {isa = PBXBuildFile; fileRef = 845526CA1E0A4E2F00AD9C2B /* eng.cube.nn */; };
+		845526DA1E0A4E2F00AD9C2B /* eng.cube.nn in Resources */ = {isa = PBXBuildFile; fileRef = 845526CA1E0A4E2F00AD9C2B /* eng.cube.nn */; };
+		845526DB1E0A4E2F00AD9C2B /* eng.cube.nn in Resources */ = {isa = PBXBuildFile; fileRef = 845526CA1E0A4E2F00AD9C2B /* eng.cube.nn */; };
+		845526DC1E0A4E2F00AD9C2B /* eng.cube.params in Resources */ = {isa = PBXBuildFile; fileRef = 845526CB1E0A4E2F00AD9C2B /* eng.cube.params */; };
+		845526DD1E0A4E2F00AD9C2B /* eng.cube.params in Resources */ = {isa = PBXBuildFile; fileRef = 845526CB1E0A4E2F00AD9C2B /* eng.cube.params */; };
+		845526DE1E0A4E2F00AD9C2B /* eng.cube.params in Resources */ = {isa = PBXBuildFile; fileRef = 845526CB1E0A4E2F00AD9C2B /* eng.cube.params */; };
+		845526DF1E0A4E2F00AD9C2B /* eng.cube.size in Resources */ = {isa = PBXBuildFile; fileRef = 845526CC1E0A4E2F00AD9C2B /* eng.cube.size */; };
+		845526E01E0A4E2F00AD9C2B /* eng.cube.size in Resources */ = {isa = PBXBuildFile; fileRef = 845526CC1E0A4E2F00AD9C2B /* eng.cube.size */; };
+		845526E11E0A4E2F00AD9C2B /* eng.cube.size in Resources */ = {isa = PBXBuildFile; fileRef = 845526CC1E0A4E2F00AD9C2B /* eng.cube.size */; };
+		845526E21E0A4E2F00AD9C2B /* eng.cube.word-freq in Resources */ = {isa = PBXBuildFile; fileRef = 845526CD1E0A4E2F00AD9C2B /* eng.cube.word-freq */; };
+		845526E31E0A4E2F00AD9C2B /* eng.cube.word-freq in Resources */ = {isa = PBXBuildFile; fileRef = 845526CD1E0A4E2F00AD9C2B /* eng.cube.word-freq */; };
+		845526E41E0A4E2F00AD9C2B /* eng.cube.word-freq in Resources */ = {isa = PBXBuildFile; fileRef = 845526CD1E0A4E2F00AD9C2B /* eng.cube.word-freq */; };
+		845526E51E0A4E2F00AD9C2B /* eng.tesseract_cube.nn in Resources */ = {isa = PBXBuildFile; fileRef = 845526CE1E0A4E2F00AD9C2B /* eng.tesseract_cube.nn */; };
+		845526E61E0A4E2F00AD9C2B /* eng.tesseract_cube.nn in Resources */ = {isa = PBXBuildFile; fileRef = 845526CE1E0A4E2F00AD9C2B /* eng.tesseract_cube.nn */; };
+		845526E71E0A4E2F00AD9C2B /* eng.tesseract_cube.nn in Resources */ = {isa = PBXBuildFile; fileRef = 845526CE1E0A4E2F00AD9C2B /* eng.tesseract_cube.nn */; };
+		845526E81E0A4E2F00AD9C2B /* eng.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 845526CF1E0A4E2F00AD9C2B /* eng.traineddata */; };
+		845526E91E0A4E2F00AD9C2B /* eng.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 845526CF1E0A4E2F00AD9C2B /* eng.traineddata */; };
+		845526EA1E0A4E2F00AD9C2B /* eng.traineddata in Resources */ = {isa = PBXBuildFile; fileRef = 845526CF1E0A4E2F00AD9C2B /* eng.traineddata */; };
+		845526EC1E0A4FA000AD9C2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845526EB1E0A4FA000AD9C2B /* Images.xcassets */; };
+		845526ED1E0A4FA000AD9C2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845526EB1E0A4FA000AD9C2B /* Images.xcassets */; };
+		845526EE1E0A4FA000AD9C2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845526EB1E0A4FA000AD9C2B /* Images.xcassets */; };
+		846AD3B41E2F75DE00711D0B /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 846AD3B31E2F75DE00711D0B /* overlay.png */; };
+		84BA73351E0CF61C00BC0C6D /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BA73341E0CF61C00BC0C6D /* overlay.png */; };
+		CF70AE04B9F48642E211D4C9 /* Pods_MRZ_Reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EB2676C6B9C704E785C424 /* Pods_MRZ_Reader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +67,6 @@
 
 /* Begin PBXFileReference section */
 		845525ED1E0A482C00AD9C2B /* MRZ Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MRZ Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		845525F01E0A482C00AD9C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845525F21E0A482C00AD9C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		845525F51E0A482C00AD9C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		845525F71E0A482C00AD9C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		845525FA1E0A482C00AD9C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845525FC1E0A482C00AD9C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845526011E0A482C00AD9C2B /* MRZ ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRZ ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845526051E0A482C00AD9C2B /* MRZ_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRZ_ReaderTests.swift; sourceTree = "<group>"; };
@@ -47,6 +74,28 @@
 		8455260C1E0A482C00AD9C2B /* MRZ ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MRZ ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845526101E0A482C00AD9C2B /* MRZ_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRZ_ReaderUITests.swift; sourceTree = "<group>"; };
 		845526121E0A482C00AD9C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845526311E0A499F00AD9C2B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845526321E0A499F00AD9C2B /* MyScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyScanViewController.swift; sourceTree = "<group>"; };
+		845526341E0A499F00AD9C2B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8455263A1E0A49A700AD9C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8455263C1E0A49A700AD9C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845526401E0A4AAA00AD9C2B /* MRZ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRZ.swift; sourceTree = "<group>"; };
+		845526411E0A4AAA00AD9C2B /* PassportScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportScannerController.swift; sourceTree = "<group>"; };
+		845526441E0A4C1E00AD9C2B /* MRZ Reader-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MRZ Reader-Bridging-Header.h"; sourceTree = "<group>"; };
+		845526C71E0A4E2F00AD9C2B /* eng.cube.bigrams */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eng.cube.bigrams; sourceTree = "<group>"; };
+		845526C81E0A4E2F00AD9C2B /* eng.cube.fold */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eng.cube.fold; sourceTree = "<group>"; };
+		845526CA1E0A4E2F00AD9C2B /* eng.cube.nn */ = {isa = PBXFileReference; lastKnownFileType = file; path = eng.cube.nn; sourceTree = "<group>"; };
+		845526CB1E0A4E2F00AD9C2B /* eng.cube.params */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eng.cube.params; sourceTree = "<group>"; };
+		845526CC1E0A4E2F00AD9C2B /* eng.cube.size */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eng.cube.size; sourceTree = "<group>"; };
+		845526CD1E0A4E2F00AD9C2B /* eng.cube.word-freq */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "eng.cube.word-freq"; sourceTree = "<group>"; };
+		845526CE1E0A4E2F00AD9C2B /* eng.tesseract_cube.nn */ = {isa = PBXFileReference; lastKnownFileType = file; path = eng.tesseract_cube.nn; sourceTree = "<group>"; };
+		845526CF1E0A4E2F00AD9C2B /* eng.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; path = eng.traineddata; sourceTree = "<group>"; };
+		845526EB1E0A4FA000AD9C2B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "MRZ Reader/Images.xcassets"; sourceTree = "<group>"; };
+		846AD3B31E2F75DE00711D0B /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay.png; sourceTree = "<group>"; };
+		84BA73341E0CF61C00BC0C6D /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlay.png; path = ../../../.Trash/overlay.png; sourceTree = "<group>"; };
+		A84D4F2AA43A8AE7AFC1F589 /* Pods-MRZ Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRZ Reader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MRZ Reader/Pods-MRZ Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		D45113CD64FEF54D81127D61 /* Pods-MRZ Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRZ Reader.release.xcconfig"; path = "Pods/Target Support Files/Pods-MRZ Reader/Pods-MRZ Reader.release.xcconfig"; sourceTree = "<group>"; };
+		E3EB2676C6B9C704E785C424 /* Pods_MRZ_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRZ_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF70AE04B9F48642E211D4C9 /* Pods_MRZ_Reader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +127,14 @@
 		845525E41E0A482C00AD9C2B = {
 			isa = PBXGroup;
 			children = (
+				845526C61E0A4E2F00AD9C2B /* tessdata */,
+				8455263F1E0A4AAA00AD9C2B /* Pod */,
 				845525EF1E0A482C00AD9C2B /* MRZ Reader */,
 				845526041E0A482C00AD9C2B /* MRZ ReaderTests */,
 				8455260F1E0A482C00AD9C2B /* MRZ ReaderUITests */,
 				845525EE1E0A482C00AD9C2B /* Products */,
+				FBDB299FF32D1C9496D07ECE /* Pods */,
+				B328613EED05BA009C86E20C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +151,15 @@
 		845525EF1E0A482C00AD9C2B /* MRZ Reader */ = {
 			isa = PBXGroup;
 			children = (
-				845525F01E0A482C00AD9C2B /* AppDelegate.swift */,
-				845525F21E0A482C00AD9C2B /* ViewController.swift */,
-				845525F41E0A482C00AD9C2B /* Main.storyboard */,
-				845525F71E0A482C00AD9C2B /* Assets.xcassets */,
-				845525F91E0A482C00AD9C2B /* LaunchScreen.storyboard */,
+				845526311E0A499F00AD9C2B /* AppDelegate.swift */,
+				845526321E0A499F00AD9C2B /* MyScanViewController.swift */,
+				845526341E0A499F00AD9C2B /* ViewController.swift */,
+				84BA73341E0CF61C00BC0C6D /* overlay.png */,
+				846AD3B31E2F75DE00711D0B /* overlay.png */,
 				845525FC1E0A482C00AD9C2B /* Info.plist */,
+				845526391E0A49A700AD9C2B /* LaunchScreen.xib */,
+				8455263B1E0A49A700AD9C2B /* Main.storyboard */,
+				845526441E0A4C1E00AD9C2B /* MRZ Reader-Bridging-Header.h */,
 			);
 			path = "MRZ Reader";
 			sourceTree = "<group>";
@@ -125,6 +182,48 @@
 			path = "MRZ ReaderUITests";
 			sourceTree = "<group>";
 		};
+		8455263F1E0A4AAA00AD9C2B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				845526401E0A4AAA00AD9C2B /* MRZ.swift */,
+				845526411E0A4AAA00AD9C2B /* PassportScannerController.swift */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		845526C61E0A4E2F00AD9C2B /* tessdata */ = {
+			isa = PBXGroup;
+			children = (
+				845526C71E0A4E2F00AD9C2B /* eng.cube.bigrams */,
+				845526C81E0A4E2F00AD9C2B /* eng.cube.fold */,
+				845526CA1E0A4E2F00AD9C2B /* eng.cube.nn */,
+				845526CB1E0A4E2F00AD9C2B /* eng.cube.params */,
+				845526CC1E0A4E2F00AD9C2B /* eng.cube.size */,
+				845526CD1E0A4E2F00AD9C2B /* eng.cube.word-freq */,
+				845526CE1E0A4E2F00AD9C2B /* eng.tesseract_cube.nn */,
+				845526CF1E0A4E2F00AD9C2B /* eng.traineddata */,
+			);
+			path = tessdata;
+			sourceTree = "<group>";
+		};
+		B328613EED05BA009C86E20C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3EB2676C6B9C704E785C424 /* Pods_MRZ_Reader.framework */,
+				845526EB1E0A4FA000AD9C2B /* Images.xcassets */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBDB299FF32D1C9496D07ECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A84D4F2AA43A8AE7AFC1F589 /* Pods-MRZ Reader.debug.xcconfig */,
+				D45113CD64FEF54D81127D61 /* Pods-MRZ Reader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845526151E0A482C00AD9C2B /* Build configuration list for PBXNativeTarget "MRZ Reader" */;
 			buildPhases = (
+				7A38D991E31C4DAD749EFBD5 /* [CP] Check Pods Manifest.lock */,
 				845525E91E0A482C00AD9C2B /* Sources */,
 				845525EA1E0A482C00AD9C2B /* Frameworks */,
 				845525EB1E0A482C00AD9C2B /* Resources */,
+				691E7255D52D61BBBFBF5914 /* [CP] Embed Pods Frameworks */,
+				FF31FD902DB9DBBAFD66D85B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +295,8 @@
 				TargetAttributes = {
 					845525EC1E0A482C00AD9C2B = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 6LSS9AG86W;
+						ProvisioningStyle = Manual;
 					};
 					845526001E0A482C00AD9C2B = {
 						CreatedOnToolsVersion = 8.1;
@@ -232,9 +335,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845525FB1E0A482C00AD9C2B /* LaunchScreen.storyboard in Resources */,
-				845525F81E0A482C00AD9C2B /* Assets.xcassets in Resources */,
-				845525F61E0A482C00AD9C2B /* Main.storyboard in Resources */,
+				84BA73351E0CF61C00BC0C6D /* overlay.png in Resources */,
+				845526D91E0A4E2F00AD9C2B /* eng.cube.nn in Resources */,
+				845526DC1E0A4E2F00AD9C2B /* eng.cube.params in Resources */,
+				845526D31E0A4E2F00AD9C2B /* eng.cube.fold in Resources */,
+				8455263D1E0A49A700AD9C2B /* LaunchScreen.xib in Resources */,
+				8455263E1E0A49A700AD9C2B /* Main.storyboard in Resources */,
+				845526DF1E0A4E2F00AD9C2B /* eng.cube.size in Resources */,
+				845526D01E0A4E2F00AD9C2B /* eng.cube.bigrams in Resources */,
+				846AD3B41E2F75DE00711D0B /* overlay.png in Resources */,
+				845526E51E0A4E2F00AD9C2B /* eng.tesseract_cube.nn in Resources */,
+				845526E81E0A4E2F00AD9C2B /* eng.traineddata in Resources */,
+				845526EC1E0A4FA000AD9C2B /* Images.xcassets in Resources */,
+				845526E21E0A4E2F00AD9C2B /* eng.cube.word-freq in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +355,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845526ED1E0A4FA000AD9C2B /* Images.xcassets in Resources */,
+				845526E91E0A4E2F00AD9C2B /* eng.traineddata in Resources */,
+				845526DD1E0A4E2F00AD9C2B /* eng.cube.params in Resources */,
+				845526DA1E0A4E2F00AD9C2B /* eng.cube.nn in Resources */,
+				845526E31E0A4E2F00AD9C2B /* eng.cube.word-freq in Resources */,
+				845526E61E0A4E2F00AD9C2B /* eng.tesseract_cube.nn in Resources */,
+				845526E01E0A4E2F00AD9C2B /* eng.cube.size in Resources */,
+				845526D11E0A4E2F00AD9C2B /* eng.cube.bigrams in Resources */,
+				845526D41E0A4E2F00AD9C2B /* eng.cube.fold in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,18 +371,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845526EE1E0A4FA000AD9C2B /* Images.xcassets in Resources */,
+				845526EA1E0A4E2F00AD9C2B /* eng.traineddata in Resources */,
+				845526DE1E0A4E2F00AD9C2B /* eng.cube.params in Resources */,
+				845526DB1E0A4E2F00AD9C2B /* eng.cube.nn in Resources */,
+				845526E41E0A4E2F00AD9C2B /* eng.cube.word-freq in Resources */,
+				845526E71E0A4E2F00AD9C2B /* eng.tesseract_cube.nn in Resources */,
+				845526E11E0A4E2F00AD9C2B /* eng.cube.size in Resources */,
+				845526D21E0A4E2F00AD9C2B /* eng.cube.bigrams in Resources */,
+				845526D51E0A4E2F00AD9C2B /* eng.cube.fold in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		691E7255D52D61BBBFBF5914 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRZ Reader/Pods-MRZ Reader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A38D991E31C4DAD749EFBD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF31FD902DB9DBBAFD66D85B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRZ Reader/Pods-MRZ Reader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		845525E91E0A482C00AD9C2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845525F31E0A482C00AD9C2B /* ViewController.swift in Sources */,
-				845525F11E0A482C00AD9C2B /* AppDelegate.swift in Sources */,
+				845526421E0A4AAA00AD9C2B /* MRZ.swift in Sources */,
+				845526351E0A499F00AD9C2B /* AppDelegate.swift in Sources */,
+				845526431E0A4AAA00AD9C2B /* PassportScannerController.swift in Sources */,
+				845526381E0A499F00AD9C2B /* ViewController.swift in Sources */,
+				845526361E0A499F00AD9C2B /* MyScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +478,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		845525F41E0A482C00AD9C2B /* Main.storyboard */ = {
+		845526391E0A49A700AD9C2B /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				845525F51E0A482C00AD9C2B /* Base */,
+				8455263A1E0A49A700AD9C2B /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
-		845525F91E0A482C00AD9C2B /* LaunchScreen.storyboard */ = {
+		8455263B1E0A49A700AD9C2B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				845525FA1E0A482C00AD9C2B /* Base */,
+				8455263C1E0A49A700AD9C2B /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -333,6 +515,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -383,6 +566,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,24 +594,36 @@
 		};
 		845526161E0A482C00AD9C2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84D4F2AA43A8AE7AFC1F589 /* Pods-MRZ Reader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LSS9AG86W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "MRZ Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tech-travels.MRZ-Reader";
+				PRODUCT_BUNDLE_IDENTIFIER = com.techmaster.sa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "64ed6ec2-1ae4-4c51-8f9a-21fa5caf25b0";
+				PROVISIONING_PROFILE_SPECIFIER = GenericATMPP;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		845526171E0A482C00AD9C2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45113CD64FEF54D81127D61 /* Pods-MRZ Reader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LSS9AG86W;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "MRZ Reader/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tech-travels.MRZ-Reader";
+				PRODUCT_BUNDLE_IDENTIFIER = com.techmaster.sa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "64ed6ec2-1ae4-4c51-8f9a-21fa5caf25b0";
+				PROVISIONING_PROFILE_SPECIFIER = GenericATMPP;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +701,7 @@
 				845526171E0A482C00AD9C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845526181E0A482C00AD9C2B /* Build configuration list for PBXNativeTarget "MRZ ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +710,7 @@
 				8455261A1E0A482C00AD9C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8455261B1E0A482C00AD9C2B /* Build configuration list for PBXNativeTarget "MRZ ReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +719,7 @@
 				8455261D1E0A482C00AD9C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

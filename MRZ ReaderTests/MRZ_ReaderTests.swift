@@ -3,7 +3,7 @@
 //  MRZ ReaderTests
 //
 //  Created by admin on 21/12/16.
-//  Copyright © 2016 admin. All rights reserved.
+//  Copyright © ksandeepvvn. All rights reserved.
 //
 
 import XCTest
